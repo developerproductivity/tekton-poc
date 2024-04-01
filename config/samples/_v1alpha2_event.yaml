@@ -1,0 +1,12 @@
+apiVersion: tekton-poc.com/v1alpha2
+kind: Event
+metadata:
+  labels:
+    app.kubernetes.io/name: event
+    app.kubernetes.io/instance: event-sample
+    app.kubernetes.io/part-of: tekton-poc
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: tekton-poc
+  name: event-sample
+spec:
+  # TODO(user): Add fields here
